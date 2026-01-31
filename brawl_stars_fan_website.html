@@ -248,9 +248,6 @@ each with their own attacks, supers, and gadgets.
       output.textContent = 'Loading stats...';
 
       try {
-        // ⚠️ VERVANG DIT MET JE EIGEN API TOKEN
-        const API_TOKEN = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6IjY5ZjA3NWMzLWMzNzMtNDI3OC04YmYyLWJmZGYyNjAyZWViZiIsImlhdCI6MTc2OTI0NzI4MCwic3ViIjoiZGV2ZWxvcGVyLzE4MzMwYzUxLTM3YzYtMDM2Ny00M2Y5LTIxZTQ4MDM3NzQ4MSIsInNjb3BlcyI6WyJicmF3bHN0YXJzIl0sImxpbWl0cyI6W3sidGllciI6ImRldmVsb3Blci9zaWx2ZXIiLCJ0eXBlIjoidGhyb3R0bGluZyJ9LHsiY2lkcnMiOlsiODEuMTY1LjE5Ljg2Il0sInR5cGUiOiJjbGllbnQifV19.PCagWw8gb6N2aMgocIK9af9t8jhYlSeMOUZNwFq_juik9-ubV2s6lUTz099pRNkY1DkyS88LCTK4Xxzu7nN0EQ';
-
         const res = await fetch(`https://api.brawlstars.com/v1/players/%23${tag}`, {
           headers: {
             Authorization: `Bearer ${API_TOKEN}`
